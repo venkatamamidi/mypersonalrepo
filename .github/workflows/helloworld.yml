@@ -11,7 +11,7 @@ jobs:
         uses: venkatamamidi/hello-world-javascript-action@v1.11
         with:
           who-to-greet: 'Suresh the Octocat'
-          hex-color-code-for-name: 'AFEBCD'
+          hex-color-code-for-name: 'BB0000'
       # Use the output from the `hello` step
       - name: Get the output time
         run: echo "The time was ${{ steps.hello.outputs.time }}"
