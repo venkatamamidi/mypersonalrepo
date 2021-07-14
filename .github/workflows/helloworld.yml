@@ -8,7 +8,7 @@ jobs:
     steps:
       - name: Hello world action step
         id: hello
-        uses: venkatamamidi/hello-world-javascript-action@v1.8
+        uses: venkatamamidi/hello-world-javascript-action@v1.9
         with:
           who-to-greet: 'Suresh the Octocat'
       # Use the output from the `hello` step
